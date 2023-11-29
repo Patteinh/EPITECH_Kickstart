@@ -1,0 +1,20 @@
+# Object files
+*.o
+
+# Libraries
+*.a
+
+# Unit_tests
+coverage
+*.gc*
+
+# Web files
+*.html
+*.css
+
+# Vscode files
+.vscode
+
+# Executables
+unit_tests
+project

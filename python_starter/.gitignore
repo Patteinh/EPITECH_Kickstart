@@ -1,0 +1,6 @@
+# Vscode files
+.vscode
+
+# Executables
+pytest
+project
