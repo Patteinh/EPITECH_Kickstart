@@ -76,17 +76,6 @@ Apart from the standard structure C Starter offer a librairy with general and li
 
 The C++ Starter mirrors the C Starter with its `Makefile` and well-organized `src` and `tests` directories but without `lib`. It creates a `coverage` directory in `tests` on running unit tests for a thorough code coverage analysis using the [Criterion](https://github.com/Snaipe/Criterion) framework.
 
-## Haskell Starter 📁
-
-The Haskell Starter uses Stack as the build tool. The `Makefile` provides the following rules:
-
-- `make`: Builds the project using Stack and copies the executable to the root directory.
-- `clean`: Cleans up the project files using Stack.
-- `fclean`: Executes `make clean` and removes the project executable.
-- `re`: Executes `make fclean` and then `make` for clean rebuild.
-
-The `app` directory contains the `Main.hs` file, which serves as the entry point of the Haskell project. The `project.cabal` file is the project configuration file, and the `package.yaml` and `stack.yaml` files are used by Stack for project management.
-
 ## Python Starter 📁
 
 The Python Starter has a `Makefile` at the root and in the `tests` directory, using [pytest](https://docs.pytest.org/en/7.4.x/) for testing. Its `Makefile` rules streamline project cleaning and recompilation, facilitating Python project development.
