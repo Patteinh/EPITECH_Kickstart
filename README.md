@@ -80,7 +80,7 @@ The C++ Starter mirrors the C Starter with its `Makefile` and well-organized `sr
 
 The Python Starter has a `Makefile` at the root and in the `tests` directory, using [pytest](https://docs.pytest.org/en/7.4.x/) for testing. Its `Makefile` rules streamline project cleaning and recompilation, facilitating Python project development.
 
-## Naming Your Project 📛
+## Naming Your Project 🖋️
 
 When using the EPITECH Kickstart tool, you can name your project by following these simple steps:
 
