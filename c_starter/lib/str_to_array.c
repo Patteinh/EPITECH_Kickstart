@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 
-char **str_to_array(const char * const str, const char * const delim)
+char **str_to_array(const char *const str, const char *const delim)
 {
     char **array = NULL;
     size_t nb_words = 0;

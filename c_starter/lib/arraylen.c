@@ -7,7 +7,7 @@
 
 #include <stddef.h>
 
-size_t arraylen(const char * const * const array)
+size_t arraylen(const char *const array[])
 {
     size_t len = 0;
 

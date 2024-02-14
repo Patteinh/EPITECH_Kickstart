@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 
-char *clean_str(const char * const str, const char * const delim)
+char *clean_str(const char *const str, const char *const delim)
 {
     size_t len = 0;
     const char *s = str;

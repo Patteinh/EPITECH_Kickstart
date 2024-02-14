@@ -7,7 +7,7 @@
 
 #include "project.h"
 
-int main(const int ac, const char * const * const av)
+int main(const int ac, const char *const av[])
 {
     return project(ac, av);
 }

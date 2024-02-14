@@ -17,9 +17,9 @@ typedef struct list_s {
     struct list_s *next;
 } list_t;
 
-size_t arraylen(const char * const * const array);
-char *clean_str(const char * const str, const char * const delim);
-char **str_to_array(const char * const str, const char * const delim);
+size_t arraylen(const char *const array[]);
+char *clean_str(const char *const str, const char *const delim);
+char **str_to_array(const char *const str, const char *const delim);
 void free_array(char **array);
 
 int add_first_node(list_t **l);

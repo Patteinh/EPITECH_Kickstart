@@ -12,7 +12,7 @@
 
 int project(M_UNUSED const std::vector<std::string> &args);
 
-int main(const int ac, const char * const * const av)
+int main(const int ac, const char *const av[])
 {
     std::vector<std::string> args(av, av + ac);
     return project(args);
